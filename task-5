@@ -1,0 +1,2582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" 
+content="width=device-width, initial-scale=1.0">
+<title>Navigation Bar</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style890.css">
+
+
+</head>
+
+<body>
+    <header class="header" style="background-color: blue;">  
+        <a href="/">
+          <img src="C:\Users\adity\Downloads\th.jpeg" 
+               alt="Brand logo"> 
+                  <span class="brand-logo-name">
+                  school of engineering
+                  </span>
+          </a>
+        <nav class="navbar">
+            <ul class="navbar-lists" id="myTopnav">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color: blanchedalmond;">
+                    MENU-BAR
+                    </a>
+                    <div class="dropdown-menu" style="height: auto; max-height: 200px; overflow-x:hidden ;">
+                      <a class="dropdown-item" href="login.html">LOGIN</a>
+                      <a class="dropdown-item" href="file:///C:/Users/adity/OneDrive/Documents/c%20file/aditya%20kumar/C.HTML">QUERY</a>
+                      <a class="dropdown-item" href="">COURSES</a>
+                      <a class="dropdown-item" href="file:///C:/Users/adity/OneDrive/Documents/c%20file/aditya%20kumar/cssgrid.html">CRITERIA</a>
+                      <a class="dropdown-item" href="#">TUTORIALS</a>
+                      <a class="dropdown-item" href="">ASSIGNMENT</a>
+                      <a class="dropdown-item" href="#">SETTING </a>
+                      <a class="dropdown-item" href="#">link-1</a>
+                      <a class="dropdown-item" href="#">link-2</a>
+                      <a class="dropdown-item" href="#">link-3</a>
+                      <a class="dropdown-item" href="#">link-4</a>
+                      <a class="dropdown-item" href="#">link-5</a>
+                    </div></li>
+                <li>
+                      <i class="fas fa-home"></i>
+                          <a class="navbar-link home-link" href="file:///C:/Users/adity/OneDrive/Documents/c%20file/aditya%20kumar/navigationbar.html">
+                              Home</a>
+
+                  </li>
+                  <li>
+                    <i class="fa-user"></i>
+                        <a class="navbar-link home-link" href="file:///C:/Users/adity/OneDrive/Documents/c%20file/aditya%20kumar/vijayk.html">
+                            QUIZ</a>
+                </li>
+                <li>
+                      <i class="fas fa-user"></i>
+                          <a class="navbar-link about-link" 
+                           href="file:///C:/Users/adity/link.html">
+                              About Us
+                          </a>
+                </li>
+                <li>
+                      <i class="fas fa-envelope"></i>
+                          <a class="navbar-link contact-link" 
+                           href="file:///C:/Users/adity/OneDrive/Documents/c%20file/aditya%20kumar/landing%20page.HTML">
+                          Contact Us
+                          </a>
+                  </li>
+                <li>
+                      <i class="fas fa-bullhorn"></i>
+                          <a class="navbar-link service-link" 
+                           href="#notice-bord-sction">
+                          Notice Board
+                          </a>
+                  </li>
+                <li><i class="fas fa-map-marked-alt"></i>
+                      <a class="navbar-link contact-link"
+                       href="#campus-on-map">
+                      Our Campus
+                      </a>
+                  </li>
+            </ul>
+            <a href="javascript:void(0);" 
+               class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    
+    </header>
+
+
+    <main>
+        <div class="school-img-container">
+            <div class="img-container">
+                <img src=
+"C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-15 at 10.33.45_785535ef.jpg"
+                     alt="school img" class="school-img">
+                <h1 class="img-title">
+                  Welcome to babu banarasi das university
+                  </h1>
+            </div>
+        </div>
+        <section id="vision" style="background-color: blueviolet;">
+            <h2 class="vision-heading">Our Vision</h2>
+            <p> we envision a learning community where every 
+                student is inspired to reach their full potential. We
+                strive to cultivate a nurturing environment that fosters
+                  curiosity, creativity, and critical thinking skills.
+                Our aim is to empower students to become lifelong learners,
+                  compassionate leaders, and responsible global citizens. 
+                  Through innovative teaching methods, personalized support,
+                  and a diverse range of opportunities
+            </p>
+        </section>
+</main>
+        <div class="main-notice-section" 
+             id="notice-bord-sction">
+            <div class="notice-container">
+                <div class="notice-bord">
+                    <h2 class="notice-bord-heading">
+                      Campus Notice Board
+                      </h2>
+                    <div>
+                        <ul>
+                            <li>
+                                <i>April 13, 2024:</i>
+                                      Inauguration ceremony for 
+                                      the new academic year.
+                                      <span class="new-text">New</span>
+                            </li>
+                            <li>
+                                <i>August  22, 2024:</i> 
+                                      Science fair showcasing 
+                                      innovative student projects. 
+                                      <span class="new-text">New</span>
+                            </li>
+                            <li>
+                                <i>August 30, 2024:</i> 
+                                      Cultural extravaganza featuring
+                                      dance, music, and drama performances. 
+                                      <span class="new-text">New</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+              
+                <div class="event-card">
+                    <h2 class="event-heading">Upcoming Events</h2>
+                    <div class="event-details">
+                        <div class="event">
+                            <h3>school of technology</h3>
+                            <p>Date: August 22, 2024</p>
+                            <p>Time: 9:00 AM - 12:00 PM</p>
+                            <p>Location: School Auditorium</p>
+                            <p>
+                              <strong>Description:</strong> 
+                              Quiz competition.
+                              </p>
+                        </div>
+                        <div class="event">
+                            <h3>school of engineering project</h3>
+                            <p>Date:August 22, 2024</p>
+                            <p>Time: 2:00 PM - 5:00 PM</p>
+                            <p>Location: Sports Ground</p>
+                            <p>
+                                  <strong>Description:</strong> 
+                                  Cricket tournament.
+                              </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="about-us-section">
+            <div class="about-us-container">
+                <h2 class="aboutus-heading">About Us</h2>
+                <p>
+                    <strong class="subheading"> 
+                          Company Profile and Brand: 
+                      </strong>
+                 Trimurti group of institute a leading platform that 
+                      provides computer science resources and 
+                      coding challenges for programmers and 
+                      technology enthusiasts, along with interview
+                      and exam preparations for upcoming aspirants.
+                    With a strong emphasis on enhancing coding 
+                      skills and knowledge, it has become a trusted
+                      destination for over 12 million plus registered 
+                      users worldwide.
+                </p>
+            </div>
+        </section>
+    
+<div class="slider">
+    <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-15 at 10.37.51_64632d52.jpg">
+  </div>
+
+<div class="main-section">
+    <div class="container about-us">
+      <div>
+        <h2 class="heading" style="text-align: center; margin-top: 200px; color: blue;">About My  College Babu Banarasi Das University</h2>
+        <h4>A Unique Heritage College in Uttarpradesh .</h4>
+        <p> Babu Banarasi Das University is a private university with its main campus in Lucknow, Uttar Pradesh, India, established by Akhilesh Das in 2010 and named after his father Babu Banarasi Das, the former Chief Minister of Uttar Pradesh.</p>
+      </div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYEjopA3dIjc9U5-g1F4fxMq5z0r2OY4MtYQ&s" width="500px" height="500px">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrf4lqbXyAswdTdMG4oXU3s_v_0LZvUvgC72hNDItJFPqMLTr-MSpsZnp-G1UHzjaq6A&usqp=CAU" width="500px" height="500px">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNMPd5DD9ZBmZssVdjaf8E4Xyb-OGmwDzYPm4nUQzxe6n534W2gONf3uerthWLWis9lsU&usqp=CAU" width="500px" height="500px">
+      <img src="https://bbdu.ac.in/wp-content/uploads/2018/10/auditorium.jpg" width="500px" height="500px">
+      <img src="https://bbdu.ac.in/wp-content/uploads/2023/02/whatsapp-image-2023-02-07-at-17.19.22.jpeg" width="500px" height="500px">
+      <img src="https://www.admissionfever.com/Media/clgimg/gallery/54897_img8170738684807479.jpg" width="500px" height="500px">
+    </div>
+  </div>
+<div class="main-section" style="background:#f0f3fa ; margin-top: 200px;">
+    <div class="container">
+
+      <div class="event">
+        <h2 class="heading">Campus News</h2>
+        <div>
+          <marquee direction="up" scrollamount="7" style="height:340px;">
+            <ul>
+              <li>
+                <i>01-April-2023 :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="https://research.mgu.ac.in/wp-content/uploads/2021/07/new-icon-gif-9.gif" width="50PX" height="50PX">
+              </li>
+              <li>
+                <i>01-April-2023 :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="https://research.mgu.ac.in/wp-content/uploads/2021/07/new-icon-gif-9.gif" width="50PX" height="50PX">
+              </li>
+              <li>
+                <i>01-April-2023 :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="https://research.mgu.ac.in/wp-content/uploads/2021/07/new-icon-gif-9.gif" width="50PX" height="50PX">
+              </li>
+              <li>
+                <i>01-April-2023 :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="https://research.mgu.ac.in/wp-content/uploads/2021/07/new-icon-gif-9.gif" width="50PX" height="50PX">
+              </li>
+              <li>
+                <i>01-April-2023 :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="https://research.mgu.ac.in/wp-content/uploads/2021/07/new-icon-gif-9.gif" width="50PX" height="50PX">
+              </li>
+              <li>
+                <i>01-April-2023 :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="https://research.mgu.ac.in/wp-content/uploads/2021/07/new-icon-gif-9.gif" width="50PX" height="50PX">
+              </li>
+              <li>
+                <i>01-April-2023 :</i> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <img src="https://research.mgu.ac.in/wp-content/uploads/2021/07/new-icon-gif-9.gif" width="50PX" height="50PX">
+              </li>
+            </ul>
+    
+          </marquee>
+        </div>
+      </div>
+  
+      <div class="event">
+        <h2 class="heading">Events</h2>
+        <div>
+            <marquee direction="up" scrollamount="7" style="height:340px;">
+          <ul>
+            <li>
+              <span class="event-date">29 <br> April </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <span class="event-date">29 <br> April </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <span class="event-date">29 <br> April </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <span class="event-date">29 <br> April </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <span class="event-date">29 <br> April </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+                <span class="event-date">29 <br> April </span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </li>
+          </ul>
+          </marquee>
+        </div>
+      </div>
+    
+      <div class="event">
+        <h2 class="heading">Notice Boards</h2>
+        <div>
+            <marquee direction="up" scrollamount="7" style="height:340px;">
+          <ul>
+            <li>
+              <img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEX/////xzj/sSL/xjH//ff/0F//qwD/+OD/1nX/rhP/rQD/0YP/4Lf/0YL/sB//rxr/3JL/xCX/+Oj/0W//5r//4az/znb/5LP/8df/uz7/yGf/26D//vr/7tH/ym7/4Kf/7MlbcjIiAAABcElEQVR4nO3da07CUBSFUbzgoyBF8Ynv+Y9Sh8C5JOw2rjWC/aU5SX806WIBAAAAAAAAAAAATMjj7dEe01u7PK0LntNre2yGdrz1S3puh22lcBxf03vrSs+w7Q6r9OCyWmEb3tKDy4qFbXhPL66qFrb13E6xXLg7fKQ315QL2/CV3lxTL2zr7/Toko7CsX2mV1d0FM7sFHsK53WKXYXtakan2Fc4jvM5xb7Cv1Pcp5cfq7Pw7wV1f30WscK2uzqTn1ThuQwbhQoVpilUqDBPoUKFeQoVKsxTqFBhnkKF/6Cw9D1NwrA9sfBmeTFtyxuFChWmKVSoME+hQoV5ChUqzFOoUGGeQoUK8xQqVJinUKHCPIUKFeYpVKgwT6FChXkKFSrMU6hQYZ5ChQrzFCpUmKdQocI8hQoV5ilUqDBPoUKFeQoVKsxTqFBhnkKFi7v75bTd351YuH+4nLaH039os5q2k/sAAAAAAAAAAAAAKn4BVRp8mwhFWkYAAAAASUVORK5CYII=" width="50PX " height="50PX"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEX/////xzj/sSL/xjH//ff/0F//qwD/+OD/1nX/rhP/rQD/0YP/4Lf/0YL/sB//rxr/3JL/xCX/+Oj/0W//5r//4az/znb/5LP/8df/uz7/yGf/26D//vr/7tH/ym7/4Kf/7MlbcjIiAAABcElEQVR4nO3da07CUBSFUbzgoyBF8Ynv+Y9Sh8C5JOw2rjWC/aU5SX806WIBAAAAAAAAAAAATMjj7dEe01u7PK0LntNre2yGdrz1S3puh22lcBxf03vrSs+w7Q6r9OCyWmEb3tKDy4qFbXhPL66qFrb13E6xXLg7fKQ315QL2/CV3lxTL2zr7/Toko7CsX2mV1d0FM7sFHsK53WKXYXtakan2Fc4jvM5xb7Cv1Pcp5cfq7Pw7wV1f30WscK2uzqTn1ThuQwbhQoVpilUqDBPoUKFeQoVKsxTqFBhnkKF/6Cw9D1NwrA9sfBmeTFtyxuFChWmKVSoME+hQoV5ChUqzFOoUGGeQoUK8xQqVJinUKHCPIUKFeYpVKgwT6FChXkKFSrMU6hQYZ5ChQrzFCpUmKdQocI8hQoV5ilUqDBPoUKFeQoVKsxTqFBhnkKFi7v75bTd351YuH+4nLaH039os5q2k/sAAAAAAAAAAAAAKn4BVRp8mwhFWkYAAAAASUVORK5CYII=" width="50PX" height="50PX"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEX/////xzj/sSL/xjH//ff/0F//qwD/+OD/1nX/rhP/rQD/0YP/4Lf/0YL/sB//rxr/3JL/xCX/+Oj/0W//5r//4az/znb/5LP/8df/uz7/yGf/26D//vr/7tH/ym7/4Kf/7MlbcjIiAAABcElEQVR4nO3da07CUBSFUbzgoyBF8Ynv+Y9Sh8C5JOw2rjWC/aU5SX806WIBAAAAAAAAAAAATMjj7dEe01u7PK0LntNre2yGdrz1S3puh22lcBxf03vrSs+w7Q6r9OCyWmEb3tKDy4qFbXhPL66qFrb13E6xXLg7fKQ315QL2/CV3lxTL2zr7/Toko7CsX2mV1d0FM7sFHsK53WKXYXtakan2Fc4jvM5xb7Cv1Pcp5cfq7Pw7wV1f30WscK2uzqTn1ThuQwbhQoVpilUqDBPoUKFeQoVKsxTqFBhnkKF/6Cw9D1NwrA9sfBmeTFtyxuFChWmKVSoME+hQoV5ChUqzFOoUGGeQoUK8xQqVJinUKHCPIUKFeYpVKgwT6FChXkKFSrMU6hQYZ5ChQrzFCpUmKdQocI8hQoV5ilUqDBPoUKFeQoVKsxTqFBhnkKFi7v75bTd351YuH+4nLaH039os5q2k/sAAAAAAAAAAAAAKn4BVRp8mwhFWkYAAAAASUVORK5CYII=" width="50PX " height="50PX"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEX/////xzj/sSL/xjH//ff/0F//qwD/+OD/1nX/rhP/rQD/0YP/4Lf/0YL/sB//rxr/3JL/xCX/+Oj/0W//5r//4az/znb/5LP/8df/uz7/yGf/26D//vr/7tH/ym7/4Kf/7MlbcjIiAAABcElEQVR4nO3da07CUBSFUbzgoyBF8Ynv+Y9Sh8C5JOw2rjWC/aU5SX806WIBAAAAAAAAAAAATMjj7dEe01u7PK0LntNre2yGdrz1S3puh22lcBxf03vrSs+w7Q6r9OCyWmEb3tKDy4qFbXhPL66qFrb13E6xXLg7fKQ315QL2/CV3lxTL2zr7/Toko7CsX2mV1d0FM7sFHsK53WKXYXtakan2Fc4jvM5xb7Cv1Pcp5cfq7Pw7wV1f30WscK2uzqTn1ThuQwbhQoVpilUqDBPoUKFeQoVKsxTqFBhnkKF/6Cw9D1NwrA9sfBmeTFtyxuFChWmKVSoME+hQoV5ChUqzFOoUGGeQoUK8xQqVJinUKHCPIUKFeYpVKgwT6FChXkKFSrMU6hQYZ5ChQrzFCpUmKdQocI8hQoV5ilUqDBPoUKFeQoVKsxTqFBhnkKFi7v75bTd351YuH+4nLaH039os5q2k/sAAAAAAAAAAAAAKn4BVRp8mwhFWkYAAAAASUVORK5CYII=" width="50PX " height="50PX"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <img src="  data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEX/////xzj/sSL/xjH//ff/0F//qwD/+OD/1nX/rhP/rQD/0YP/4Lf/0YL/sB//rxr/3JL/xCX/+Oj/0W//5r//4az/znb/5LP/8df/uz7/yGf/26D//vr/7tH/ym7/4Kf/7MlbcjIiAAABcElEQVR4nO3da07CUBSFUbzgoyBF8Ynv+Y9Sh8C5JOw2rjWC/aU5SX806WIBAAAAAAAAAAAATMjj7dEe01u7PK0LntNre2yGdrz1S3puh22lcBxf03vrSs+w7Q6r9OCyWmEb3tKDy4qFbXhPL66qFrb13E6xXLg7fKQ315QL2/CV3lxTL2zr7/Toko7CsX2mV1d0FM7sFHsK53WKXYXtakan2Fc4jvM5xb7Cv1Pcp5cfq7Pw7wV1f30WscK2uzqTn1ThuQwbhQoVpilUqDBPoUKFeQoVKsxTqFBhnkKF/6Cw9D1NwrA9sfBmeTFtyxuFChWmKVSoME+hQoV5ChUqzFOoUGGeQoUK8xQqVJinUKHCPIUKFeYpVKgwT6FChXkKFSrMU6hQYZ5ChQrzFCpUmKdQocI8hQoV5ilUqDBPoUKFeQoVKsxTqFBhnkKFi7v75bTd351YuH+4nLaH039os5q2k/sAAAAAAAAAAAAAKn4BVRp8mwhFWkYAAAAASUVORK5CYII=" width="50PX " height="50PX"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+            <li>
+              <img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEX/////xzj/sSL/xjH//ff/0F//qwD/+OD/1nX/rhP/rQD/0YP/4Lf/0YL/sB//rxr/3JL/xCX/+Oj/0W//5r//4az/znb/5LP/8df/uz7/yGf/26D//vr/7tH/ym7/4Kf/7MlbcjIiAAABcElEQVR4nO3da07CUBSFUbzgoyBF8Ynv+Y9Sh8C5JOw2rjWC/aU5SX806WIBAAAAAAAAAAAATMjj7dEe01u7PK0LntNre2yGdrz1S3puh22lcBxf03vrSs+w7Q6r9OCyWmEb3tKDy4qFbXhPL66qFrb13E6xXLg7fKQ315QL2/CV3lxTL2zr7/Toko7CsX2mV1d0FM7sFHsK53WKXYXtakan2Fc4jvM5xb7Cv1Pcp5cfq7Pw7wV1f30WscK2uzqTn1ThuQwbhQoVpilUqDBPoUKFeQoVKsxTqFBhnkKF/6Cw9D1NwrA9sfBmeTFtyxuFChWmKVSoME+hQoV5ChUqzFOoUGGeQoUK8xQqVJinUKHCPIUKFeYpVKgwT6FChXkKFSrMU6hQYZ5ChQrzFCpUmKdQocI8hQoV5ilUqDBPoUKFeQoVKsxTqFBhnkKFi7v75bTd351YuH+4nLaH039os5q2k/sAAAAAAAAAAAAAKn4BVRp8mwhFWkYAAAAASUVORK5CYII=" width="50PX " height="50PX"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </li>
+          </ul>
+          </marquee>
+        </div>
+      </div>
+    </div>
+</div>
+  <br>  
+<br><br>
+<br> <br>
+     <div class="main-section award" style="background:#f0f3fa;">
+        <div class="container">
+         
+          <div class="event">
+            <h2 class="heading">School of Engineering Info</h2>
+            <div>
+              <h3>My  SCHOOL of Engineering</h3>
+              <p>
+                <b>WEB-DEVELOPER : </b>  vishesh-kumar-prajapati
+              </p>
+              <p>
+                <b>Address : </b> lucknow Uttarpradesh
+              </p>
+              <p>
+                <b>City : </b> Lucknow, India.
+              </p>
+              <p>
+                <b>Contact No. : </b> +91234 456 7890
+              </p>
+              <p>
+                <b>Email Id : </b>Contact@adminvisheshk.p
+              </p>
+            </div>
+          </div>
+       
+          <div class="event">
+            <h2 class="heading">Our College Awards</h2>
+            <div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSLMN5KKFOxNctZKkSnna-PAfwohIeJmNpNw&s">
+            </div>
+          </div>
+       
+          <div class="event">
+            <h2 class="heading">My College Certificate</h2>
+            <div>
+              <img src="https://bbdu.ac.in/wp-content/uploads/2024/08/breastfeeding-certificate-rotated.jpeg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-section" style="margin-top: 1000px;">
+        <h2 class="heading" style="text-align: center; font-size: xx-large; color: black; background-color: blue;">What Student Say's About Courses</h2>
+        <marquee scrollamount="7">
+           <div class="testimonial">
+              <div class="testimonial-text" style="background-color: #09eef1;">
+                the quality can vary based on the platform, instructor, and course structure, with some<br>
+                 highlighting excellent hands-on projects and clear explanations while others mention  <br>
+                 potential shortcomings in depth or practical application. 
+                
+              </div>
+              <div class="testimonial-detail">
+                 <div class="testimonial-img"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdnqKeWr3ju3N7nNybGI1YR-5uH_ouEnzMOA&s"> </div>
+                 <div class="testimonial-name">
+                    <h5>sagun chaurasiya</h5>
+                    <p>Web Devloper</p>
+                 </div>
+              </div>
+           </div>
+           <div class="testimonial">
+              <div class="testimonial-text"  style="background-color: #09eef1;">
+                Web development courses teach you how to design, code, and maintain websites.<br>
+                 They can help you develop skills in front-end or back-end development,
+                 <br> and prepare you for a career in web development. 
+              </div>
+              <div class="testimonial-detail">
+                 <div class="testimonial-img"> <img src="https://photosking.net/wp-content/uploads/2024/04/real-girl-pic-photo-images105.webp" height="250px" width="250px"> </div>
+                 <div class="testimonial-name">
+                    <h5>swati chaurasiya</h5>
+                    <p>Web Devloper</p>
+                 </div>
+              </div>
+           </div>
+           <div class="testimonial">
+              <div class="testimonial-text"  style="background-color: #09eef1;">
+                Most courses start with the fundamentals of HTML for structuring content, <br>
+                CSS for styling, and JavaScript for interactivity, with advanced courses diving  <br>
+                into responsive design, animations, and server-side technologies
+       . 
+              </div>
+              <div class="testimonial-detail" >
+                 <div class="testimonial-img"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk_JGxsJW8Kpo7cmHmBFg09xkS5PGWZUZrZQ&s"> </div>
+                 <div class="testimonial-name">
+                    <h5>swati srivastawa</h5>
+                    <p>Web Devloper</p>
+                 </div>
+              </div>
+           </div>
+        </marquee>
+      </div>
+      <div class="main-section" style="margin-top: 200PX;">
+        <h2 class="heading" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bolder; font-size: xx-large; text-align: center; background-color: cornflowerblue;">Placement</h2>
+        <marquee class="placement" direction="left" scrollamount="10">
+           <img src="https://cdn.pixabay.com/photo/2021/08/10/16/02/amazon-6536326_1280.png" width="200PX" height="50PX"> 
+           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Deloitte_Logo.png/800px-Deloitte_Logo.png" width="200PX" height="50PX"> 
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyF5hXBqwGEg0qUrsXboYN_dNLqGiSDSVy0Q&s" width="200PX" height="50PX"> 
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk0wsJEIlLVGvmAG2wnejIPMhV6K6ZErIdYw&s" width="200PX" height="50PX"> 
+           <img src="https://1000logos.net/wp-content/uploads/2021/04/Accenture-logo.png" width="200PX" height="50PX"> 
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKE0GgxQbFi1chj5IfW9bPKDh6FMF7sbXfLA&s" width="200PX" height="50PX"> 
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1llZQc-W4oml6Zj8bG-DzrqCbAL1lS0Sdwg&s" width="200PX" height="50PX"> 
+           <img src="https://www.financialexpress.com/wp-content/uploads/2022/09/hcl1.jpg" width="200PX" height="50PX"> 
+           <img src="https://www.underconsideration.com/brandnew/archives/wipro_logo_before_after.jpg" width="200PX" height="50PX"> 
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiqhYkcOB4nFRO2oS1H-iVBKOsVzfzC9QROQ&s" width="200PX" height="50PX"> 
+           <img src="https://blogs.microsoft.com/wp-content/uploads/prod/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" width="200PX" height="50PX"> 
+           <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Ola_Cabs_logo.svg/1200px-Ola_Cabs_logo.svg.png" width="200PX" height="50PX">
+        </marquee>
+      </div>
+      </div>
+      
+        <section class="our-school-map" id="campus-on-map" style="margin-top:500px;">
+            <h2 class="location-heading">
+             find our college location
+              </h2>
+            <iframe src=
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47169.795533326396!2d77.38522794611738!3d28.51217402233223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626851f7009%3A0x621185133cfd1ad1!2sGeeksforGeeks%20%7C%20Coding%20Classes!5e0!3m2!1sen!2sin!4v1712429105950!5m2!1sen!2sin"
+                    width="100%" height="450" 
+                    style="border:0;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+        </section>
+
+        <section id="contact-form">
+            <h2 class="contact-form-heading">
+                              Contact Us Form
+              </h2>
+            <div class="container">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="fullName">
+                          Full Name
+                          </label>
+                        <input type="text" id="fullName" 
+                               name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email"
+                               name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" 
+                               name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" 
+                                  required>
+                          </textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+<div class="footer">
+    <div class="container">
+      <div class="footer-sect">
+        <img class="footer-logo" src="https://bbdniit.ac.in/wp-content/uploads/2024/06/alumni.jpg">
+      </div>
+      <div class="footer-sect">
+        <a href="#"> Home</a>
+        <a href="#"> About us</a>
+        <a href="#"> Tutorial</a>
+        <a href="#"> Event</a>
+        <a href="#"> Gallery</a>
+        <a href="#"> Press Release</a>
+        <a href="#"> Courses</a>
+        <a href="#"> Contact Us</a>
+      </div>
+      <div class="footer-sect">
+        <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-10 at 05.34.59_40a90f2e.jpg" width="200px" height="100px">
+        <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-10 at 05.34.57_5108b259.jpg" width="200px" height="100px">
+        <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-10 at 05.34.58_e20ede7e.jpg"  width="200px" height="100px">
+        <img src="C:\Users\adity\OneDrive\Documents\WhatsApp Image 2024-07-10 at 05.35.01_9f704b6e.jpg"  width="200px" height="100px">
+      </div>
+      <p style="text-align: center;">&copy; 2025 My School Of Engineering. All rights reserved.</p>
+    </div>
+  </div>
+   
+  
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
+-------------------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #8490ff;
+    --secondary-color: #212121;
+    --bg: #fff;
+    --text-color: #333;
+    --bg-gray: #f2f2f2;
+    --header-green-color: #36ed22;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.brand-logo-name {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.75rem;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #8490ff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #212121;
+}
+
+.header {
+    padding: 1.6rem 4.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #36ed22;
+    box-shadow: 0px 0px 20px 0px rgba(132, 144, 255, 0.2);
+    width: 100%;
+    height: 10vh;
+}
+
+.header img {
+    height: 30px;
+    padding-top: 8px;
+}
+
+.navbar-lists {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-lists li {
+    margin-right: 20px;
+}
+
+.navbar-lists li:last-child {
+    margin-right: 0;
+}
+
+.navbar-link {
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.icon {
+    display: none;
+}
+
+.navbar-lists li:nth-child(1) i {
+    color: rgb(221, 228, 215);
+}
+
+.navbar-lists li:nth-child(2) i {
+    color: rgb(240, 237, 64);
+}
+
+.navbar-lists li:nth-child(3) i {
+    color: rgb(11, 12, 11);
+}
+
+.navbar-lists li:nth-child(4) i {
+    color: orange;
+}
+
+.navbar-lists li:nth-child(5) i {
+    color: rgb(33, 105, 239);
+}
+
+@media screen and (max-width: 768px) {
+    .icon {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 999;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+        flex-direction: row-reverse;
+    }
+
+    .navbar-lists {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #3beb2b;
+        width: 100%;
+        padding-top: 10px;
+        z-index: 998;
+    }
+
+    .navbar-lists.responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-lists.responsive li {
+        margin: 10px 0;
+    }
+
+    .navbar-link {
+        padding: 10px 20px;
+    }
+
+    .navbar-link i {
+        display: none;
+    }
+}
+
+.school-img {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    color: #1bf346;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    animation: img-blink 2s infinite alternate;
+}
+
+@keyframes img-blink {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}
+
+#vision {
+    padding: 4rem 0;
+    background-color: rgb(28, 225, 97);
+}
+
+#vision h2 {
+    text-align: center;
+    color: var(--bg);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#vision p {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 1.125rem;
+}
+
+.main-notice-section {
+    background-color: var(--bg);
+    padding: 4rem 0;
+    margin-left: 3rem;
+    overflow: auto;
+}
+
+.notice-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.notice-bord,
+.event-card {
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.notice-bord {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notice-bord h2 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    margin-left: 5rem;
+}
+
+.notice-bord li {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.notice-bord li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.notice-bord li p {
+    margin: 0;
+    color: var(--text-color);
+}
+
+.event-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-card .event-heading {
+    color: var(--header-green-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event {
+    width: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    animation: fadeInUp 1s ease forwards;
+    transition: transform 0.3s ease, 
+                  box-shadow 0.3s ease, 
+                  background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.event:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #085718;
+    color: #fff;
+}
+
+.event h3 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.event p {
+    margin-bottom: 0.5rem;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .notice-container {
+        flex-direction: column;
+    }
+
+    .notice-bord,
+    .event-card {
+        width: calc(100% - 20px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .event-card {
+        margin-top: 2rem;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: var(--secondary-color);
+    color: #fff;
+    height: 10vh;
+}
+
+.contact-form-heading {
+    color: #007bff;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.aboutus-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.subheading {
+    color: #000;
+}
+
+
+#about-us-section {
+    background: rgb(28, 225, 97);
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    padding-bottom: 20px;
+    border: 3px solid rgb(28, 225, 97);
+    border-radius: 5px;
+}
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.subheading {
+    color: #000;
+}
+
+.about-us-container p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: black;
+    text-align: left;
+}
+
+.about-us-container p:first-of-type {
+    margin-top: 0;
+}
+
+.about-us-container p:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutus-heading {
+        font-size: 2rem;
+    }
+
+    .about-us-container p {
+        font-size: 1rem;
+    }
+}
+
+.our-school-map {
+    text-align: center;
+}
+
+
+.location-heading {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .location-heading {
+        font-size: 2rem;
+    }
+
+    .our-school-map iframe {
+        width: 90%;
+        max-width: 100%;
+        height: 300px;
+        margin: 0 auto;
+    }
+}
+
+.new-text {
+    color: red;
+    animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}
+.event {
+    width: 32%;
+    margin-right: 1%;
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .event .heading {
+    border-bottom: 1px solid #46b7c1;
+    padding: 5px;
+    color: #fff;
+    background: #46b7c1;
+    text-align: center;
+  }
+  .event ul li {
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    list-style: none;
+  }
+  .event-date {
+    background: #46b7c1;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px 12px;
+    margin-right: 10px;
+  }
+  
+  
+.slider img {
+    width: 100%;
+  }
+  
+
+.award p {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+  }
+  .award img {
+    width: 100%;
+  }
+  .award b {
+    min-width: 115px;
+    float: left;
+    margin-bottom: 20px;
+  }
+  .award h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.footer {
+    background-color: #46b7c1;
+    padding: 20px 0px;
+    width: 100%;
+    float: left;
+  }
+  .footer-logo {
+    width: 70%;
+  }
+  .footer-sect {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer-sect a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+  }
+  ------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>login</title>
+</head>
+<style>
+*{box-sizing: border-box;}
+h1{color: black; text-align: center;}
+form{text-align: center; text-decoration: solid; color: #666; background-color:#f1f2f3 ;display: grid; gap:50px; border: 5px solid #fff; padding: 15px;margin:100px 100px 100px 100px ;}
+body{background-color:hotpink;}
+input[type="text"]{width:800px ; height:40px; font-variant: small-caps; font: 1em sans-serif; font-weight: bolder;}
+form{font-weight: bolder;font: 1em sans-serif; text-decoration: solid;font-variant: small-caps; color: black; font-size:20PX;}
+.a3,.a4{ text-align: center;
+  float: left;
+  width: 50%;
+}
+
+</style>
+<body>
+ <form>
+<h1 style="font-size:50PX ;">LOGIN</h1>
+<img src="C:\Users\adity\Downloads\download (13).png" alt=" logo" style="width:200px; height: 200px; margin-left:550px ; margin-right: 500px;">
+<label for="user name">USER NAME:
+<input type="text" placeholder="USER NAME" value="user name"required >
+</label>
+<label for="Password">PASSWORD:
+ <input type="text"   placeholder="Password"  value="Password" required>
+</label>
+<a style="color:peru ; cursor:alias;" href="file:///C:/Users/adity/forgetpassword.html">forget password</a>
+<label>
+    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+  </label>
+  <p>By creating an account you agree to our <a href="file:///C:/Users/adity/termsandpolicy.html " style="color:dodgerblue">Terms & Privacy</a>.</p>
+<label>
+<a  class="a3"  style="box-sizing: border-box; color:darkgreen;text-decoration: none; background-color: chartreuse; padding: 10px;"   href="SOTIFYCLONE.HTML">login</a>
+ <a  class="a4"        style="box-sizing:border-box;color:red; text-decoration: none; background-color: hotpink; padding: 10px;"   href="SOTIFYCLONE.HTML">signup</a>
+</label>   
+ </form>   
+</body>
+</html>
+-------------------------
+<!DOCTYPE html>
+<html>
+<head>
+<title>contact  form</title>
+<style>
+    
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+BODY{ background-color: #73AD21;}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container { border: 5PX SOLID#333;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left:400PX; margin-right: 400PX; margin-top:100PX;
+}
+H1{background-color:#999 ;padding:15PX;}
+    </style>
+    <body>
+<div class="container">
+    <H1>CONTACT-FORM</H1>
+    <form action="action_page.php">
+  
+      <label for="fname">FIRST NAME:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">LAST NAME:</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="CONTACT NUMBER">CONTACT NUMBER:</label>
+<input type="text" id="CONTACT NUMBER" name="CONTACT NUMBER" placeholder="Your Contact Number..">
+  
+      <label for="country">COUNTRY:</label>
+      <select id="country" name="country">
+        <option value="Select Country">Select Country</option>
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="India">India</option>
+        <option value="Sri lanka">Sri lanka</option>
+        
+      </select>
+  <H3>ANY QUERY then KINDLY SUBMIT YOUR REQUEST</H3>
+      <label for="subject">SUBJECT:</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>
+    </div>
+    <footer>
+        <H2>CONTACT- SECTION</H2>
+   <H3>MY CONTACT DETAILS ARE GIVEN BELOW</H3>    
+<H4>FOUNDER:</H4>
+<P>VISHESH KUMAR PRAJAPATI</P>
+<H5>EDUCATION:</H5>
+<P>GRADUATE FROM BBD UNIVERSITY B.TECH COMPUTER SCIENCE ENGINEERING</P>
+<H5>ADDRESS:</H5>
+<p>LUCKNOW UTTARPRADESH INDIA</p>
+<H5>CONTACT NO.:</H5>
+<P>6393792046</P>
+<H5>EMAIL-ID:</H5>
+<P>visheshprajapati7920@GMAIL.COM</P>
+<P>adityak.p6392@GMAIL.COM</P>
+    </footer>
+    <p style="text-align: center; background-color: black; color: #73AD21; padding: 17px; border: 2px solid black;">Copyright@v.k.p</p>
+    </body>
+----------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style2345.css"/>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Georgia, serif;
+}
+
+body {
+  background-color: #fbfbfb;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main p {
+  margin-bottom: 0;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  margin: 0 2rem;
+}
+
+.content-area {
+  width: calc(66.6% - 1rem);
+  margin-right: 1rem;
+  float: left;
+}
+
+.sidebar {
+  width: 33.3%;
+  float: right;
+  padding: 1rem;
+}
+
+.main-header {
+  height: 3rem;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+  height: 100%;
+  line-height: 3rem;
+}
+
+.main-menu {
+  width: 79%;
+  float: right;
+  height: 100%;
+  line-height: 3rem;
+  text-align: right;
+}
+
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu__item {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}
+
+.main-menu .main-menu__item:last-of-type {
+  margin-right: 0;
+}
+
+.content-area-wrapper, .sponsors-wrapper, .main-header {
+  margin-bottom: 2rem;
+}
+
+.sponsors {
+  display: table;
+  border-spacing: 1rem;
+  width: 100%;
+}
+
+.sponsor {
+  width: 20%;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #fff;
+  border-radius: 0.625rem;
+}
+
+.sponsor img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media all and (max-width: 992px) {
+  .container {
+    margin: 0 1rem;
+  }
+  
+  .sponsors {
+    border-spacing: 0.5rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .content-area, .sidebar {
+    float: none;
+  }
+
+  .content-area {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .sidebar {
+    width: 66.6%;
+  }
+  
+  .sponsors, .sponsor {
+    display: block;
+  }
+
+  .sponsor {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .main-menu, .logo {
+    float: none;
+    width: 100%;
+  }
+
+  .main-menu {
+    text-align: left;
+    margin-top: 2rem;
+  }
+
+  .main-header {
+    height: auto;
+  }
+
+  .logo, .main-menu {
+    line-height: initial;
+  }
+}    
+a{
+    text-decoration: none;
+    color: #000;
+}
+ img{max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+a:hover{
+    color: red;
+}
+</style>
+<body>
+<div class="container">
+  <header class="main-header clearfix">
+    <section class="logo" style="background-color: rgb(120, 120, 230); border: solid 4px black;" >
+      <h1><a href="#">BookSite</a></h1>
+    </section>
+
+    <nav class="main-menu" style="background-color: rgb(116, 116, 169); border: solid 4px #000;">
+      <ul style="color: black; overflow: hidden; text-decoration: none;">
+        <li class="main-menu__item"><a href="#">Our clients</a></li>
+        <li class="main-menu__item"><a href="#">Products</a></li>
+        <li class="main-menu__item"><a href="#">Contact</a></li>
+        <li class="main-menu__item"><a href="#">Query</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content-area-wrapper clearfix">
+    <main class="content-area" style="background-color: rgb(245, 244, 242); color: rgb(2, 42, 42);">
+      <h2 style="color: black; text-align: center; background-color: aqua;">Welcome BookSite!</h2>
+<h3>Graduate Aptitude Test in Engineering (GATE)</h3>
+      <p>
+        Graduate Aptitude Test in Engineering (GATE) is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in Engineering/ Technology/ Architecture/ Science/ Commerce/ Arts/ Humanities. GATE 2025 will be a computer-based test (CBT) and is being organized by Indian Institutes of Technology Roorkee. The examination will be conducted by IISc Bengaluru and seven IITs (IIT Bombay, IIT Delhi, IIT Guwahati, IIT Kanpur, IIT Kharagpur, IIT Madras and IIT Roorkee), on behalf of the National Coordination Board - GATE, Department of Higher Education, Ministry of Education (MoE), Government of India (GoI).
+
+
+      </p>
+
+      <p>
+        Qualifying in GATE does not guarantee admission, scholarship, or a job. Admission to any institute is fully dependent on the admitting institute’s criteria for educational qualification. GATE qualification does not assure a public sector undertaking (PSU) job. No responsibility is assumed for admission, scholarship, or a job 
+      </p>
+    </main>
+
+    <aside class="sidebar" style="background-color: rgb(247, 223, 194); color: #476a48;">
+      <h3 style="color: rgb(4, 244, 244); text-align: center; background-color: #036c05;">CONTACT- DETAILS</h3>
+
+      <ul>
+        <li>GATE-JAM Office</li>
+        <li>  
+            Indian Institute of Technology Roorkee
+            Roorkee - 247667 (Uttarakhand), INDIA</li>
+        <li>  helpdesk.gate@iitr.ac.in</li>
+        <li>  01332 284531
+        </li>
+        <li>.GATE Papers <br>
+            .Eligibility Criteria<br>
+           . FAQs</li>
+      </ul>
+    </aside>
+  </section>
+
+  <section class="sponsors-wrapper clearfix">
+    <h2 style="background-color: rgb(6, 163, 111); border:solid 4px black ; text-align: center;">Our sponsors</h2>
+
+    <section class="sponsors">
+      <figure class="sponsor">
+        <img src="https://th.bing.com/th/id/OIP.Tsk0idfA-5ykvCfC0r_ZyAAAAA?w=171&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+      </figure>
+
+      <figure class="sponsor">
+        <img src="https://th.bing.com/th/id/OIP.SHPXUoWOFP7S0PL3bg8kIAAAAA?rs=1&pid=ImgDetMain">
+      </figure>
+
+      <figure class="sponsor">
+        <img src="https://th.bing.com/th/id/OIP.-XLHCaDPnMwh4C9-rTOI-QHaHW?rs=1&pid=ImgDetMain">
+      </figure>
+
+      <figure class="sponsor">
+        <img src="https://th.bing.com/th/id/OIP.YPxcVDItdS6ZHOv2LE5h7AHaHQ?rs=1&pid=ImgDetMain">
+      </figure>
+
+      <figure class="sponsor">
+        <img src="https://th.bing.com/th/id/OIP.PDFvKNbCl1Ej_isMksJW_QHaHa?pid=ImgDet&w=184&h=184&c=7&dpr=1.3">
+      </figure>
+    </section>
+
+  </section>
+<hr>
+<H1 style="text-align: center; background-color: darkcyan; color: #000;">ADDITIONAL STUFF</H1>
+</div>
+<div class="grid-wrapper">
+	<div>
+		<img src="https://image4.slideserve.com/7506945/guide-to-gate-exam1-l.jpg" alt="" />
+	</div>
+	<div>
+		<img src="https://www.knowyourtutor.com/blog/wp-content/uploads/2018/10/GATE-Exam-Preparation-tipis.jpg" alt="" />
+	</div>
+	<div class="tall">
+		<img src="https://th.bing.com/th/id/OIP.RgMWfq3Kz-YPkY8AcZCafAHaJk?rs=1&pid=ImgDetMain" alt="">
+	</div>
+	<div class="wide">
+		<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4erxGft-0LAFB6z_gJ96ybJ3f6ein_j2YSUniSYATvk-U6DB0XSFJasHm2fPXfC73xFLC2S1_IZYAZhw7umbk8Vj77yrWghRRCCcxNyNSoZPGnjJuJubC9bxzPbuC-HLM0Q1CJMyLvHs_-jTJc-yASCvLiiaHv9zN77toNo8Zyp8-TN8Sqe4OmVlYj3FI/w1200-h630-p-k-no-nu/photo_2024-08-04_17-48-18.jpg" alt="" />
+	</div>
+	<div>
+		<img src=" https://i.pinimg.com/originals/1d/5f/64/1d5f645a7511279ff0cee3ba53176a34.png" alt="" />
+	</div>
+	<div class="tall">
+		<img src="https://www.westmelton.school.nz/images/gifted_talented_0047.png" alt="" />
+	</div>
+	<div class="big">
+		<img src="https://www.careerindia.com/img/2020/03/gateresult2020-1583844487.jpg" alt="" />
+	</div>
+	<div>
+		<img src="https://jobingov.com/wp-content/uploads/2020/09/gate-exam-1024x576.jpg" alt="" />
+	</div>
+	<div class="wide">
+		<img src="https://th.bing.com/th/id/OIP.aBc2q2kltjyENQ__FcAX2QHaHP?rs=1&pid=ImgDetMain" alt="" />
+	</div>
+	<div class="big">
+		<img src="https://th.bing.com/th/id/OIP.g4PlMhvckd-y2rbUiKr9MwHaFj?rs=1&pid=ImgDetMain" alt="" />
+	</div>
+	<div class="tall">
+		<img src="https://i.ytimg.com/vi/A7bz2KUw2cM/maxresdefault.jpg" alt="" />
+	</div>
+	<div>
+		<img src="https://th.bing.com/th?id=OIP.u-Fyma2g9l48OdDW827-JwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="" />
+	</div>
+	<div>
+		<img src="https://th.bing.com/th?id=OIP.fv7-TEdyp5HrGs-mM3dmkwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="" />
+	</div>
+	<div>
+		<img src="https://wallpaperaccess.com/full/8410991.jpg" alt="" />
+	</div>
+	<div>
+		<img src="https://th.bing.com/th/id/OIP.RCV2HK8GK4tqa6m4Xy2-5wHaER?rs=1&pid=ImgDetMain" alt="" />
+	</div>
+	<div class="wide">
+		<img src="https://www.iitk.ac.in/new/images/slider/gate-2023.jpg" alt="" />
+	</div>
+	<div>
+		<img src="https://i.ytimg.com/vi/kWHcMeE4C5M/maxresdefault.jpg" alt="" />
+	</div>
+	<div>
+		<img src="https://thumbs.dreamstime.com/z/indian-institute-technology-bombay-entrance-gate-board-entry-iit-logo-front-view-india-s-top-engineering-264169212.jpg" alt="" />
+	</div>
+	<div class="wide">
+		<img src="https://manage.nakshewala.com/assets/gallery/large/gallrey5db2c560a9ec095x65_l.jpg" alt="" />
+	</div>
+	<div>
+		<img src="C:\Users\adity\Downloads\OIP.jpeg" alt="" />
+	</div>
+    <div>
+		<img src="C:\Users\adity\Downloads\OSK.jpeg" alt="" />
+	</div>
+    <div>
+        <img src="C:\Users\adity\Downloads\Computer-Science.jpg" alt="">
+    </div>
+</div>
+
+<footer class="footer" style="background-color: black; color: antiquewhite; padding:12px ;">
+    <p style="text-align: center;">
+        GATE 2025, IIT Roorkee © 2024. All Rights Reserved.
+    </p>
+  </footer>
+</body>
+</html>
+---------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style234567.css">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<style>
+    a:hover{
+        background-color: blue;
+        padding: 4px;
+    }
+</style>
+     <title> Menu Bar</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="#">QUIZSTORE</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">QUIZSTORE</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                      
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      HOME
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">WEB DEVELOPMENT</a>
+                      <a class="dropdown-item" href="#">JAVA DEVELOPMENT</a>
+                      <a class="dropdown-item" href="#">PYTHON DEVELOPMENT</a>
+                      <a class="dropdown-item" href="#">C++ DEVELOPMENT</a>
+                      <a class="dropdown-item" href="#">C DEVELOPMENT</a>
+                      <a class="dropdown-item" href="#">FULL STACK WEBDEVELOPMENT </a>
+                    </div>
+                 
+                   <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    MOCK TEST
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">GATE</a>
+                      <a class="dropdown-item" href="#">UPSC</a>
+                      <a class="dropdown-item" href="#">SSC CGL</a>
+                      <a class="dropdown-item" href="#">JEE MAIN</a>
+                      <a class="dropdown-item" href="#">JEE ADVANCE</a>
+                      <a class="dropdown-item" href="#">NEET</a>
+                    </div>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        TUTORIALS
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Link 1</a>
+                        <a class="dropdown-item" href="#">Link 2</a>
+                        <a class="dropdown-item" href="#">Link 3</a>
+                        <a class="dropdown-item" href="#">Link 4</a>
+                        <a class="dropdown-item" href="#">Link 5</a>
+                        <a class="dropdown-item" href="#">Link 6</a>
+                      </div>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      COURSES
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Link 1</a>
+                      <a class="dropdown-item" href="#">Link 2</a>
+                      <a class="dropdown-item" href="#">Link 3</a>
+                      <a class="dropdown-item" href="#">Link 4</a>
+                      <a class="dropdown-item" href="#">Link 5</a>
+                      <a class="dropdown-item" href="#">Link 6</a>
+                    </div>  
+                      </ul>
+                    </div>  
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+        <fieldset style=" border-radius:10px ; border: solid 20px darkgreen;padding:10px ; margin-top: 66PX; background-color:black; ">
+        
+      <img src="C:\Users\adity\Downloads\istockphoto-1222563369-170667a.jpg">
+              
+      <img src="C:\Users\adity\Downloads\istockphoto-1222563369-170667a.jpg">
+      <img src="C:\Users\adity\Downloads\istockphoto-1222563369-170667a.jpg">
+      <img src="C:\Users\adity\Downloads\istockphoto-1222563369-170667a.jpg">
+         
+         </fieldset>
+        
+  <h2 style="text-align:center ;">MANY PROGRAMING LANGUAGES AND COURSES ARE GIVEN BELOW </h2>
+  
+  <h2 style="text-align: center;">Programmer pickup lines I've collected these past few months</h2>
+  <p style="text-align: center;">If they made you in C, you would have a pointer to my heart!</p>
+  
+  <p style="text-align: center;">let me be your CSS to your HTML</p>
+  
+  <p style="text-align: center;">Fork my heart because I'm ready to commit</p>
+  
+  <p style="text-align: center;">I’ve spent so much time working with computers, you bet I know how to turn things on</p>
+  
+  <p style="text-align: center;">I must be an exception because you have sure caught me.</p>
+  <p style="text-align: center;">Are you a double? The thought of you always floats inside my head.</p>
+   
+  <p style="text-align: center;">Hey girl did u lose a timestamp coz i am pretty sure its DateTime.now();</p>
+  
+  <p style="text-align: center;">"Date me because I have side projects instead of side chicks"</p>
+  
+  <p style="text-align: center;">If I pull and push it in, know that I am already committing</p>
+  
+  <p style="text-align: center;">with all the variables in life...baby can you be my constant...</p>
+  
+  <p style="text-align: center;">Are you https?? Bcz without you I'm just ://</p>
+  
+  <p style="text-align: center;">Are you a function? Let me call you.</p>
+  
+  <p style="text-align: center;">Girl are you CSS? Cause you got class</p>
+  
+  <p style="text-align: center;">It works on my end</p>
+  
+  <p style="text-align: center;">We can merge, without conflicts!</p>
+  
+  <p style="text-align: center;">Are you a keyboard, cause you're my type</p>
+  
+  <p style="text-align: center;">May I append my surname to your name?</p>
+  <p style="text-align: center;">You are my bug in my code coz i spend all my time on you</p>
+  
+  <p style="text-align: center;">My object is oriented towards you.</p>
+  
+  <p style="text-align: center;">Are you an exception? Let me catch you.</p>
+  
+  <p style="text-align: center;">Are you a semicolon, because you totally completing me!</p>
+  
+  <p style="text-align: center;">Can you be my html because i will give my body to you</p>
+  
+  <p style="text-align: center;">You are my number 0</p>
+  
+  <p style="text-align: center;">Me += You</p>
+  
+  <p style="text-align: center;">Are you double? You always float inside my head.</p>
+  
+  <p style="text-align: center;">I can't wait to inject my SQL into your application layer.</p>
+  
+  <p style="text-align: center;">I always forget ; because I want to end it with you</p>
+  
+  <p style="text-align: center;">Hlo&nbsp;r&nbsp;u&nbsp;gril?</p>
+  
+  
+  
+  
+  
+  
+  
+                <img src="C:\Users\adity\Downloads\OIP (4).jpeg" width="288PX" height="200PX">
+                          <h2 style="text-align: center;">APP-DEVELOPMENT</h2>
+                          <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weigh<div class="program" style="display: inline-flex;">
+  <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top: 100PX;box-shadow:slategray;">
+   <img src="C:\Users\adity\Downloads\wp8816346.webp" width="288PX" height="200PX">
+   <h2 style="text-align: center;">PYTHON-DEVELOPMENT</h2>
+   <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">6 weeks 
+      <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+      <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+      <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+  <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+      <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.0| 821116 learners</p>
+  <button style="margin-left: 80px; background-color: black;">
+  <p style="color: #04AA6D;">
+  <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+   </p>
+  </button>
+  </div>
+  <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top: 100PX;box-shadow:slategray;">
+      <img src="C:\Users\adity\Downloads\Get-the-Most-Fancied-Web-Development-Services-min-scaled (1).jpg" width="288PX" height="200PX">
+      <h2 style="text-align: center;">WEB-DEVELOPMENT </h2>
+      <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">6 weeks 
+         <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+         <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+         <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+     <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+         <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.6| 45556 learners</p>
+      <button style="margin-left: 80px; background-color: black;">
+      <p style="color: #04AA6D;">
+        <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+      </p>
+      </button>
+      </div>
+      <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top: 100PX;box-shadow:slategray;">
+          <img src="C:\Users\adity\Downloads\core-java-programming.png" width="288PX" height="200PX">
+          <h2 style="text-align: center;">JAVA-CORE</h2>
+          <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">6 weeks 
+             <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+             <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+             <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+         <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+             <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.4| 28756 learners</p>
+          <button style="margin-left: 80px; background-color: black;">
+          <p style="color: #04AA6D;">
+            <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+          </p>
+          </button>
+          </div>
+          <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top: 100PX;box-shadow:slategray;">
+              <img src="C:\Users\adity\Downloads\what-is-core-java.png" width="288PX" height="200PX">
+              <h2 style="text-align: center;">JAVA-DEVELOPMENT</h2>
+              <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">6 weeks 
+                 <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                 <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                 <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+             <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                 <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.5| 84006 learners</p>
+              <button style="margin-left: 80px; background-color: black;">
+              <p style="color: #04AA6D;">
+                <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+              </p>
+              </button>
+              </div>
+              <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top: 100PX;box-shadow:slategray;">
+                  <img src="C:\Users\adity\Downloads\OIP (2).jpeg" width="288PX" height="200PX">
+                  <h2 style="text-align: center;">ANDROID-DEVELOPMENT</h2>
+                  <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">6 weeks 
+                     <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                     <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                     <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+                 <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                     <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.8| 56756 learners</p>
+                  <button style="margin-left: 80px; background-color: black;">
+                  <p style="color: #04AA6D;">
+                    <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                  </p>
+                  </button>
+                  </div>
+        </div>
+        <div class="program" style="display: inline-flex;">
+          <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;
+          box-shadow:slategray;">
+           <img src="C:\Users\adity\Downloads\Front end development skills.jpg" width="288PX" height="200PX">
+           <h2 style="text-align: center;">FRONT-END-DEVELOPMENT</h2>
+           <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">16 weeks 
+              <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+              <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+              <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+          <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+              <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.7| 8216 learners</p>
+           <button style="margin-left: 80px; background-color: black;">
+           <p style="color: #04AA6D;">
+            <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+           </p>
+          </button>
+          </div>
+          <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;
+          box-shadow:slategray;">
+              <img src="C:\Users\adity\Downloads\backenddeveloper-2502825a14ff440eb775dc4244e7ed4d.png" width="288PX" height="200PX">
+              <h2 style="text-align: center;">BACK-END-DEVELOPMENT </h2>
+              <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">11 weeks 
+                 <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                 <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                 <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+             <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                 <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.3| 14555 learners</p>
+              <button style="margin-left: 80px; background-color: black;">
+              <p style="color: #04AA6D;">
+                <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+              </p>
+              </button>
+              </div>
+              <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;box-shadow:slategray;">
+                  <img src="C:\Users\adity\Downloads\OIP (3).jpeg" width="288PX" height="200PX">
+                  <h2 style="text-align: center;">BLOCK-CHAIN-DEVELOPMENT</h2>
+                  <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">6 weeks
+                     <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                     <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                     <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+                 <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                     <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.4| 256 learners</p>
+                  <button style="margin-left: 80px; background-color: black;">
+                  <p style="color: #04AA6D;">
+                    <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                  </p>
+                  </button>
+                  </div>
+                  <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;box-shadow:slategray">
+                      <img src="C:\Users\adity\Downloads\OSK.jpeg" width="288PX" height="200PX">
+                      <h2 style="text-align: center;">GRAPHIC DESIGNING</h2>
+                      <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">6 weeks</p>
+                         <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                         <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                         <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"><p></p>
+                     <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                         <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.5| 8006 learners</p>
+                      <button style="margin-left: 80px; background-color: black;">
+                      <p style="color: #04AA6D;">
+                        <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                      </p>
+                      </button>
+                      </div>
+                      <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;box-shadow:slategray">
+            t: bolder;font-size: x-large;" class="etegg">6 weeks</p>
+                             <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                             <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                             <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"><p></p>
+                         <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                             <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.8| 5656 learners</p>
+                          <button style="margin-left: 80px; background-color: black;">
+                          <p style="color: #04AA6D;">
+                            <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                          </p>
+                          </button>
+                          </div>
+                </div>
+  
+  
+  
+                <div class="program" style="display: inline-flex;">
+                  <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;
+                  box-shadow:slategray;">
+                   <img src="C:\Users\adity\Downloads\OIP (5).jpeg" width="288PX" height="200PX">
+                   <h2 style="text-align: center;">GENERATIVE AI</h2>
+                   <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">7 weeks 
+                      <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                      <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                      <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+                  <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                      <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.0| 8116 learners</p>
+                   <button style="margin-left: 80px; background-color: black;">
+                   <p style="color: #04AA6D;">
+                    <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                   </p>
+                  </button>
+                  </div>
+                  <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;
+                  box-shadow:slategray;">
+                      <img src="C:\Users\adity\Downloads\Deep-Learning.jpg" width="288PX" height="200PX">
+                      <h2 style="text-align: center;">DEEP-LEARNING </h2>
+                      <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">9 weeks 
+                         <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                         <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                         <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+                     <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                         <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.6| 4556 learners</p>
+                      <button style="margin-left: 80px; background-color: black;">
+                      <p style="color: #04AA6D;">
+                        <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                      </p>
+                      </button>
+                      </div>
+                      <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;box-shadow:slategray;">
+                          <img src="C:\Users\adity\Downloads\OIP (6).jpeg" width="288PX" height="200PX">
+                          <h2 style="text-align: center;">MACHINE-LEARNING</h2>
+                          <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">14weeks
+                             <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                             <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                             <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+                         <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                             <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.4| 2856 learners</p>
+                          <button style="margin-left: 80px; background-color: black;">
+                          <p style="color: #04AA6D;">
+                            <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                          </p>
+                          </button>
+                          </div>
+                          <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;box-shadow:slategray">
+                              <img src="C:\Users\adity\Downloads\OIP (7).jpeg" width="288PX" height="200PX">
+                              <h2 style="text-align: center;">C PROGRAMING</h2>
+                              <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">5 weeks</p>
+                                 <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                                 <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                                 <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"><p></p>
+                             <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                                 <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.5| 8006 learners</p>
+                              <button style="margin-left: 80px; background-color: black;">
+                              <p style="color: #04AA6D;">
+                                <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                              </p>
+                              </button>
+                              </div>
+                              <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;box-shadow:slategray">
+                                  <img src="C:\Users\adity\Downloads\OIP (8).jpeg" width="288PX" height="200PX">
+                                  <h2 style="text-align: center;">C++ PROGRAMING</h2>
+                                  <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">6 weeks</p>
+                                     <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                                     <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                                     <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"><p></p>
+                                 <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                                     <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.8| 6756 learners</p>
+                                  <button style="margin-left: 80px; background-color: black;">
+                                  <p style="color: #04AA6D;">
+                                    <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                                  </p>
+                                  </button>
+                                  </div>
+                        </div>
+  
+                        <div class="program" style="display: inline-flex;">
+                          <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;
+                          box-shadow:slategray;">
+                           <img src="C:\Users\adity\Downloads\thumbnail-20.webp" width="288PX" height="200PX">
+                           <h2 style="text-align: center;">C#</h2>
+                           <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">8 weeks 
+                              <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                              <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                              <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+                          <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                              <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.0| 1116 learners</p>
+                           <button style="margin-left: 80px; background-color: black;">
+                           <p style="color: #04AA6D;">
+                            <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                           </p>
+                          </button>
+                          </div>
+                          <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;
+                          box-shadow:slategray;">
+                              <img src="C:\Users\adity\Downloads\OIP (9).jpeg" width="288PX" height="200PX">
+                              <h2 style="text-align: center;">DATA-SCIENCE </h2>
+                              <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">16 weeks 
+                                 <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                                 <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                                 <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+                             <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                                 <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.6| 4556 learners</p>
+                              <button style="margin-left: 80px; background-color: black;">
+                              <p style="color: #04AA6D;">
+                                <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                              </p>
+                              </button>
+                              </div>
+                              <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;box-shadow:slategray;">
+                                  <img src="C:\Users\adity\Downloads\OIP (10).jpeg" width="288PX" height="200PX">
+                                  <h2 style="text-align: center;">OPERATING SYSTEM</h2>
+                                  <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">9 weeks
+                                     <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                                     <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                                     <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"></p>
+                                 <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                                     <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.4| 8756 learners</p>
+                                  <button style="margin-left: 80px; background-color: black;">
+                                  <p style="color: #04AA6D;">
+                                    <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                                  </p>
+                                  </button>
+                                  </div>
+                                  <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;box-shadow:slategray">
+                                      <img src="C:\Users\adity\Downloads\OIP (11).jpeg" width="288PX" height="200PX">
+                                      <h2 style="text-align: center;">DBMS</h2>
+                                      <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">6 weeks</p>
+                                         <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                                         <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                                         <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"><p></p>
+                                     <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                                         <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.5| 8006 learners</p>
+                                      <button style="margin-left: 80px; background-color: black;">
+                                      <p style="color: #04AA6D;">
+                                        <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                                      </p>
+                                      </button>
+                                      </div>
+                                      <div style="  background-color:slategray;width: 600PX; width: 300PX; box-sizing: border-box; border:solid 6PX #333; margin-left:100PX ; margin-top:50PX;box-shadow:slategray">
+                                          <img src="C:\Users\adity\Downloads\about_sql_5dcf267e9c.jpg" width="288PX" height="200PX">
+                                          <h2 style="text-align: center;">SQL</h2>
+                                          <p style="display: inline-flex; margin-left: 60px;margin-top: 0px;     font-family: 'Times New Roman', Times, serif;font-weight: bolder;font-size: x-large;" class="etegg">6 weeks</p>
+                                             <img src="C:\Users\adity\Downloads\R.png " width="20px" height="24px">
+                                             <img src="C:\Users\adity\Downloads\27_volumeon-512.webp" width="20px" height="24px"><img src="C:\Users\adity\Downloads\R (1).png" width="20px" height="20px">, 
+                                             <img src="C:\Users\adity\Downloads\OIP.jpeg" width="20px" height="20px"><p></p>
+                                         <p style=" margin-left:60px ; margin-top: 0px; font-family: 'Times New Roman', Times, serif; font-size: x-large; font-weight: bolder;">
+                                             <img src="C:\Users\adity\Downloads\OIP (1).jpeg" width="20px" height="20px">4.8| 5756 learners</p>
+                                          <button style="margin-left: 80px; background-color: black;">
+                                          <p style="color: #04AA6D;">
+                                            <a style="color: #04AA6D; text-decoration: none;" href="enroll.html">ENROLL-NOW</a>
+                                          </p>
+                                          </button>
+                                          </div>
+                                </div>
+                                <footer>
+                                  <ul> 
+                                   <li>Company</li>
+                                  <li>About Us</li>
+                                  <li>Careers</li>
+                                  <li>In Media</li>
+                                  <li>Contact Us</li>
+                                  <li>Terms and Conditions</li>
+                                  <li>Privacy Policy</li>
+                                  <li>Copyright Policy</li>
+                                  <li>Third-Party Copyright Notices</li>
+                                  <li>Advertise with us</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Explore</li>
+                                  <li>Job Fair For Students</li>
+                                  <li>POTD: Revamped</li>
+                                  <li>Python Backend LIVE</li>
+                                  <li>Android App Development</li>
+                                  <li>DevOps LIVE</li>
+                                  <li>DSA in JavaScript</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Languages</li>
+                                  <li>Python</li>
+                                  <li>Java</li>
+                                  <li>C++</li>
+                                  <li>PHP</li>
+                                  <li>GoLang</li>
+                                  <li>SQL</li>
+                                  <li>R Language</li>
+                                  <li>Android Tutorial</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Data Structures</li>
+                                  <li>Array</li>
+                                  <li>String</li>
+                                  <li>Linked List</li>
+                                  <li>Stack</li>
+                                  <li>Queue</li>
+                                  <li>Tree</li>
+                                  <li>Graph</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Algorithms</li>
+                                  <li>Sorting</li>
+                                  <li>Searching</li>
+                                  <li>Greedy</li>
+                                  <li>Dynamic Programming</li>
+                                  <li>Pattern Searching</li>
+                                  <li>Recursion</li>
+                                  <li>Backtracking</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Web Development</li>
+                                  <li>HTML</li>
+                                  <li>CSS</li>
+                                  <li>JavaScript</li>
+                                  <li>Bootstrap</li>
+                                  <li>ReactJS</li>
+                                  <li>AngularJS</li>
+                                  <li>NodeJS</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Computer Science</li>
+                                  <li>GATE CS Notes</li>
+                                  <li>Operating Systems</li>
+                                  <li>Computer Network</li>
+                                  <li>Database Management System</li>
+                                  <li>Software Engineering</li>
+                                  <li>Digital Logic Design</li>
+                                  <li>Engineering Maths</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Python</li>
+                                  <li>Python Programming Examples</li>
+                                  <li>Django Tutorial</li>
+                                  <li>Python Projects</li>
+                                  <li>Python Tkinter</li>
+                                  <li>OpenCV Python Tutorial</li>
+                                  <li>Python Interview Question</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Data Science &amp; ML</li>
+                                  <li>Data Science With Python</li>
+                                  <li>Data Science For Beginner</li>
+                                  <li>Machine Learning Tutorial</li>
+                                  <li>Maths For Machine Learning</li>
+                                  <li>Pandas Tutorial</li>
+                                  <li>NumPy Tutorial</li>
+                                  <li>NLP Tutorial</li>
+                                  <li>Deep Learning Tutorial</li>
+                                  </ul>
+                                  <ul>
+                                  <li>DevOps</li>
+                                  <li>Git</li>
+                                  <li>AWS</li>
+                                  <li>Docker</li>
+                                  <li>Kubernetes</li>
+                                  <li>Azure</li>
+                                  <li>GCP</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Competitive Programming</li>
+                                  <li>Top DSA for CP</li>
+                                  <li>Top 50 Tree Problems</li>
+                                  <li>Top 50 Graph Problems</li>
+                                  <li>Top 50 Array Problems</li>
+                                  <li>Top 50 String Problems</li>
+                                  <li>Top 50 DP Problems</li>
+                                  <li>Top 15 Websites for CP</li>
+                                  </ul>
+                                  <ul>
+                                  <li>System Design</li>
+                                  <li>What is System Design</li>
+                                  <li>Monolithic and Distributed SD</li>
+                                  <li>Scalability in SD</li>
+                                  <li>Databases in SD</li>
+                                  <li>High Level Design or HLD</li>
+                                  <li>Low Level Design or LLD</li>
+                                  <li>Top SD Interview Questions</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Interview Corner</li>
+                                  <li>Company Preparation</li>
+                                  <li>Preparation for SDE</li>
+                                  <li>Company Interview Corner</li>
+                                  <li>Experienced Interview</li>
+                                  <li>Internship Interview</li>
+                                  <li>Competitive Programming</li>
+                                  <li>Aptitude</li>
+                                  </ul>
+                                  <ul>
+                                  <li>GfG School</li>
+                                  <li>CBSE Notes for Class 8  </li>
+                                  <li>CBSE Notes for Class 9 </li>
+                                  <li>CBSE Notes for Class 10 </li>
+                                  <li>CBSE Notes for Class 11 </li>
+                                  <li>CBSE Notes for Class 12 </li>
+                                  <li>English Grammar</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Commerce</li>
+                                  <li>Accountancy</li>
+                                  <li>Business Studies</li>
+                                  <li>Microeconomics</li>
+                                  <li>Macroeconomics</li>
+                                  <li>Statistics for Economics</li>
+                                  <li>Indian Economic Development</li>
+                                  </ul>
+                                  <ul>
+                                  <li>UPSC</li>
+                                  <li>Polity Notes</li>
+                                  <li>Geography Notes</li>
+                                  <li>History Notes</li>
+                                  <li>Science and Technology Notes</li>
+                                  <li>Economics Notes</li>
+                                  <li>Important Topics in Ethics</li>
+                                  <li>UPSC Previous Year Papers</li>
+                                  </ul>
+                                  <ul>
+                                  <li>SSC/ BANKING</li>
+                                  <li>SSC CGL Syllabus</li>
+                                  <li>SBI PO Syllabus</li>
+                                  <li>SBI Clerk Syllabus</li>
+                                  <li>IBPS PO Syllabus</li>
+                                  <li>IBPS Clerk Syllabus</li>
+                                  <li>Aptitude Questions</li>
+                                  <li>SSC CGL Practice Papers</li>
+                                  </ul>
+                                  <ul>
+                                  <li>Write &amp; Earn</li>
+                                  <li>Write an Article</li>
+                                  <li>Improve an Article</li>
+                                  <li>Pick Topics to Write</li>
+                                  <li>Write Interview Experience</li>
+                                  <li>Internships</li>
+                                  <li>Video Internship</li>
+                                  </ul>
+                                  <ul class="box input-box">
+                                    <li class="link_name">Subscribe</li>
+                                    <li><input type="text" placeholder="Enter your ">
+                                    </li><li><input type="button" value="Subscribe"></li>
+                                  </ul>
+                                  <ul>
+                                  </ul>
+                                  
+                                   </footer>
+                                  
+                                   <div class="demo12" style="background-color: #333; text-align: center; padding: 10PX;">
+                                   Copyright@visheshk.p 
+                                   </div>
+                                  
+                                  
+                        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("Topnav");
+          if (x.className === "nav") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav";
+          }
+  }
+  </script>
+      
+
+    <img src="C:\Users\adity\Downloads\img_5terre.jpg"  width="1500px">
+<script>
+
+const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      modeToggle = document.querySelector(".dark-light"),
+      searchToggle = document.querySelector(".searchToggle"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
+
+      let getMode = localStorage.getItem("mode");
+          if(getMode && getMode === "dark-mode"){
+            body.classList.add("dark");
+          }
+
+      modeToggle.addEventListener("click" , () =>{
+        modeToggle.classList.toggle("active");
+        body.classList.toggle("dark");
+
+        if(!body.classList.contains("dark")){
+            localStorage.setItem("mode" , "light-mode");
+        }else{
+            localStorage.setItem("mode" , "dark-mode");
+        }
+      });
+
+
+        searchToggle.addEventListener("click" , () =>{
+        searchToggle.classList.toggle("active");
+      });
+ 
+      
+
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
+
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
+
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
+});
+
+</script>
+
+</body>
+</html>
+--------------
+<!DOCTYPE html>
+<html>
+<head>
+<title>contact  form</title>
+<style>
+    * {
+      background-color: #61ea68;
+    }
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+
+.hide-md-lg {
+  display: none;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+}
+
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+ 
+  .vl {
+    display: none;
+  }
+
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+* {box-sizing: border-box}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color:purple;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+    </style>
+    <body>
+        <div class="container">
+            <form action="/action_page.php">
+              <div class="row">
+                <h2 style="text-align:center">Login with Social Media or Manually</h2>
+                <div class="vl">
+                  <span class="vl-innertext">or</span>
+                </div>
+          
+                <div class="col">
+                  <a href="https;//www,Facebook.com" class="fb btn">
+                    <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                  </a>
+                  <a href="#" class="twitter btn">
+                    <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+                  </a>
+                  <a href="#" class="google btn">
+                    <i class="fa fa-google fa-fw"></i> Login with Google+
+                  </a>
+                </div>
+          
+                <div class="col">
+                  <div class="hide-md-lg">
+                    <p>Or sign in manually:</p>
+                  </div>
+          
+                  <input type="text" name="username" placeholder="Username" required>
+                  <input type="password" name="password" placeholder="Password" required>
+                  <button style="background-color: blueviolet;">
+                 <a  style="text-decoration: none; text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: bolder; font-size: x-large; background-color: blueviolet;" href="file:///C:/Users/adity/OneDrive/Documents/c%20file/aditya%20kumar/instruction.html">LOGIN</a>
+                </button>
+                </div>
+          
+              </div>
+            </form>
+          </div>
+          
+          <div class="bottom-container">
+            <div class="row">
+              <div class="col" style="display: inline-flex; width:1500px ; margin-left:50px ;">
+                <a href="file:///C:/Users/adity/OneDrive/Documents/Desktop/codsoft%20internship/cognifyz/enroll.html" style="background-color: #067c0a; width: 685px; height: 50PX; color: #000; font-family: 'Times New Roman', Times, serif; font-weight: bolder;" class="btn">Sign In</a>
+             <a href="vijayk.html"  style="background-color:#dd1212; width:685px ; height: 50PX; color: #000; font-family: 'Times New Roman', Times, serif; font-weight: bolder;" class="btn">Cancel</a>
+              </div>
+            </div>
+          </div>
+          
+          
+    </body>
+
+    </html>
+----------
